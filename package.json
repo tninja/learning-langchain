@@ -4,7 +4,8 @@
 	"type": "module",
 	"author": "Nuno Campos and Mayo Oshin",
 	"scripts": {
-		"langgraph:dev": "npx @langchain/langgraph-cli dev -c ch9/js/langgraph.json --verbose"
+		"langgraph:dev": "npx @langchain/langgraph-cli dev -c ch9/js/langgraph.json --verbose",
+		"test": "npx tsx"
 	},
 	"dependencies": {
 		"@langchain/community": "^0.3.26",
